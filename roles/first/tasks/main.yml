@@ -1,0 +1,4 @@
+---
+- debug: var=home
+- assert:
+    that: home == "/home/first/alpha"
